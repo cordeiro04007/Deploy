@@ -35,7 +35,8 @@ agent = Agent(
     description='',
     search_knowledge=True,
     num_history_runs=3,
-    debug_mode=True
+    debug_mode=True,
+    enable_user_memories=True,
 )
 #AGENTOS
 agent_os = AgentOS(
